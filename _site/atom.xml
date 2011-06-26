@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+    <title>\v/ julian gruber</title>
+ <link href="http://juliangruber.com/atom.xml" rel="self"/>
+ <link href="http://juliangruber.com/"/>
+ <updated>2011-06-26T13:04:22+02:00</updated>
+ <id>http://juliangruber.com/</id>
+ <author>
+   <name>julian gruber</name>
+   <email>julian@juliangruber.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>windows mac switching resources</title>
+   <link href="http://juliangruber.com/posts/2011/06/25/windows-mac-switching-resources.html"/>
+   <updated>2011-06-25T00:00:00+02:00</updated>
+   <id>http://juliangruber.com/posts/2011/06/25/windows-mac-switching-resources</id>
+   <content type="html">&lt;p&gt;i'm switching back to linux now for reasons that i will dwelve into later. in order to leave my trace in the mac world here i post some software and tips for people who just switched over from windows and other operating systems in order to help with the transition:&lt;/p&gt;
+
+&lt;h3&gt;{apple-key} + Space&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;launch programs&lt;/li&gt;
+&lt;li&gt;open documents&lt;/li&gt;
+&lt;li&gt;do calculations (like 2+2)&lt;/li&gt;
+&lt;li&gt;search mails&lt;/li&gt;
+&lt;li&gt;access settings&lt;/li&gt;
+&lt;li&gt;definitions&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;and if you want more features from a box like that, try alfredapp.com&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.xmarks.com&quot;&gt;xmarks&lt;/a&gt; and &lt;a href=&quot;https://lastpass.com&quot;&gt;lastpass&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;synchronize and backup your bookmarks and basswords across all your browsers. it just works.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.srware.net/forum/viewtopic.php?f=17&amp;amp;t=2441&quot;&gt;srware iron&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;a browser that is essentially google chrome, but without the google. in my experience it is the fastest and most stable while best to use browser on the market. recommended extensions:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/cfhdojbkjhnklbpkdaibdccddilifddb&quot;&gt;adblock plus for google chrome&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/jeoacafpbcihiomhlakheieifhpjdfeo&quot;&gt;disconnect&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;&lt;a href=&quot;http://www.smileonmymac.com/TextExpander/&quot;&gt;textexpander&lt;/a&gt;&lt;/h3&gt;
+
+&lt;blockquote&gt;&lt;p&gt;&quot;If you find yourself rewriting the same lines of code, the same paragraphs, even the same signature over and over each day, you’re doing it wrong. How many hours each year would you save, simply by turning an eight second repetitive typing task into a keystroke? Especially in my particular circumstance, TextExpander is 100% a necessity.
+“Save time and effort with TextExpander! Whether it’s a simple email signature or several paragraphs of a standard response, you’ll love how easy it is to use TextExpander to avoid typing the same thing over and over.”&quot;&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://itunes.apple.com/us/app/time-out-free/id402592703&quot;&gt;time out free&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;reminds you to take short breaks regulary&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://www.dropbox.com/&quot;&gt;dropbox&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;automatically synchronize your files between multiple machines&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://chetansurpur.com/projects/sidestep/&quot;&gt;sidestep&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;this app secures your internet connection in case you are in an unsecured wifi network&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.yousoftware.com/tunes/&quot;&gt;you control tunes&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;control itunes without having to leave your currently active application, right from your menu bar&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://adium.im/&quot;&gt;adium&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;for all your instant messaging needs&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://itunes.apple.com/de/app/bettersnaptool/id417375580?mt=12&quot;&gt;better snap tool&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;organize your windows without the hazzle of manually resizing them&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.omnigroup.com/products/omnigraffle/&quot;&gt;omni graffle&lt;/a&gt;&lt;/h3&gt;
+
+&lt;blockquote&gt;&lt;p&gt;&quot;Need a diagram, process chart, quick page-layout, website wireframe or graphic design? OmniGraffle can help you make eye-popping graphic documents quickly by keeping lines connected to shapes even when they're moved, providing powerful styling tools, importing and exporting Microsoft Visio files, and magically organizing diagrams with just one click. Whether you need a quick sketch or an epic technical figure, OmniGraffle keeps it gorgeously understandable.&quot;&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://movies.apple.com/findouthow/mac/&quot;&gt;find out how&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;apple video tutorials for new mac users&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://wakaba.c3.cx/s/apps/unarchiver.html&quot;&gt;the unarchiver&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;opens zip, tar, bzip2, rar, 7zip archives and more&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.videolan.org/vlc/&quot;&gt;vlc video player&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;a free media player that is able to play almost every format. if you don't want an extra app besides quicktime you can also install http://www.perian.org/ and extend quicktime with a vlc-like encoding support&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.6wunderkinder.com/wunderlist/&quot;&gt;wunderlist&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;free todo list application with web sync and browser interface&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.smashingmagazine.com/2009/06/04/30-must-have-tweaks-for-your-mac/&quot;&gt;30-must-have-tweaks-for-your-mac&lt;/a&gt;&lt;/h3&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>rails state of the art</title>
+   <link href="http://juliangruber.com/posts/2011/06/25/rails-state-of-the-art.html"/>
+   <updated>2011-06-25T00:00:00+02:00</updated>
+   <id>http://juliangruber.com/posts/2011/06/25/rails-state-of-the-art</id>
+   <content type="html">&lt;iframe width=&quot;500&quot; height=&quot;314&quot; src=&quot;http://www.youtube.com/embed/cGdCI2HhfAU?rel=0&amp;amp;hd=1&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+
+&lt;p&gt;my comment on the somewhat controversal last railsconf talk by rails founder david heinemeier hansson (i recommend you watch his talk first if you haven't yet).&lt;/p&gt;
+
+&lt;h3&gt;magic 13&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;13 files in one directory -&amp;gt; :(
+13 methods in one class   -&amp;gt; :(
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;true.&lt;/p&gt;
+
+&lt;h3&gt;asset pipeline&lt;/h3&gt;
+
+&lt;p&gt;nice for big sites like the 37signals ones, but again a hassle for smaller sites. and a lot of sites start rather small. this might push even more developers towards sinatra.&lt;/p&gt;
+
+&lt;h3&gt;code cops&lt;/h3&gt;
+
+&lt;p&gt;and what's about david heinemeier hanssons's initial talk about ruby with freedom and risk and monkeypatching and stuff, now he is talking about laws, enforcements and code cops :(&lt;/p&gt;
+
+&lt;h3&gt;asset structure&lt;/h3&gt;
+
+&lt;p&gt;however filing the js- and css-files in a perfect folder structure on the backend and then serving them combined, minimized (and cached) is rather neat: lower filesize, fewer ttp requests, faster development.&lt;/p&gt;
+
+&lt;h3&gt;unix&lt;/h3&gt;
+
+&lt;p&gt;some critizise that the learning curve for rails is becoming steeper and steeper, possibly turning a lot of developers away from it.&lt;/p&gt;
+
+&lt;p&gt;but might this not be just like with unix? a steep learning curve which always pays off in the end? only to a certain extent because unix allows simple flexible solutions whereas rails has this enforcing structure (convention over configuration).&lt;/p&gt;
+
+&lt;h3&gt;vendor libraries&lt;/h3&gt;
+
+&lt;p&gt;divorcing self written js from vendor js libs is a good idea.
+now you can install js libs also as gems and don't need to have them hang around in your directory structure. the only downside i see in this is that for quick code lookup in those files while development you have to get it from somewhere else.&lt;/p&gt;
+
+&lt;p&gt;and the same works equally well for css frameworks (if you use them&lt;sup&gt;^)&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h3&gt;coffeescript&lt;/h3&gt;
+
+&lt;p&gt;the inclusion of coffeescript isn't necessary, couldn't the just enable easy coffeescript integration?&lt;/p&gt;
+
+&lt;p&gt;-&gt; they help make coffeescript a standard which i myself appreciate&lt;/p&gt;
+
+&lt;p&gt;but don't you have to have node.js installed on the server for coffeescript? this could become a huge problem for people tied to shared hosting environments. but hey, lets push those companies towards the future and demand it!&lt;/p&gt;
+
+&lt;p&gt;(btw: the coffeescript compiler is written in coffeescript which is totally awesome)&lt;/p&gt;
+
+&lt;p&gt;and they have automatic recompilation of changed .coffee-files already built in which is also totally awesome.&lt;/p&gt;
+
+&lt;h3&gt;updated generators&lt;/h3&gt;
+
+&lt;p&gt;when you generate a new controller, the generator autogenerates coffee &amp;amp; scss-files for you. while this could generate some unnecessary files, for the scope of applications rails targets for js is propably needed for every controller.&lt;/p&gt;
+
+&lt;h3&gt;automatic parser chaining&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;posts.css.scss.erb
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;this says that posts.css should be parsed by erb and then by scss. thats very nice, dynamic css just got easier.&lt;/p&gt;
+
+&lt;h3&gt;default libraries&lt;/h3&gt;
+
+&lt;p&gt;although scss is the default css library you can easily witch to less e.g. by changing one config file. good for everyone!&lt;/p&gt;
+
+&lt;h3&gt;defaults over no-defaults&lt;/h3&gt;
+
+&lt;p&gt;rails stands for faster and easier development vs for example the classical unix approach: more configuration, but more flexibility. now what do you prefer?&lt;/p&gt;
+
+&lt;p&gt;i prefer both. can't we have both?&lt;/p&gt;
+
+&lt;h3&gt;framework vs library&lt;/h3&gt;
+
+&lt;p&gt;framework: have features enabled by default. disable what you don't need
+library: have nothing enabled by default. pick and configure what you need.&lt;/p&gt;
+
+&lt;h3&gt;middleware&lt;/h3&gt;
+
+&lt;p&gt;this js/css compiling, minifying, filename-based-caching is cool, but do you know if they have this implemented as an independent racks middleware? would be cool to use in also not-rails-projects.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>why this blog</title>
+   <link href="http://juliangruber.com/posts/2011/06/24/why-this-blog.html"/>
+   <updated>2011-06-24T00:00:00+02:00</updated>
+   <id>http://juliangruber.com/posts/2011/06/24/why-this-blog</id>
+   <content type="html">&lt;p&gt;so why another blog?&lt;/p&gt;
+
+&lt;p&gt;after i finished school and civil service i went to university with the vision of being alone as much as possible.&lt;/p&gt;
+
+&lt;p&gt;yes, being alone, no friends, just enjoying the solitude.&lt;/p&gt;
+
+&lt;p&gt;i felt like i needed this. so i started this experiment. and it is a nice experience, you learn a lot about yourself. but what i noticed is that thoughts don't develop as they used to.&lt;/p&gt;
+
+&lt;p&gt;i am missing the talking.&lt;/p&gt;
+
+&lt;p&gt;when i occasionally explain something to someoneor just discuss on a topic, while i am talking i am making up an opinion and on-the-fly finding conclusions which i didn't reach in solitude, not talking.&lt;/p&gt;
+
+&lt;p&gt;so i need to find a way to talk. still i don't want to break my experiment with the silence. so i will talk to my self, only in a non-creepy-way and where others can benefit too.&lt;/p&gt;
+
+&lt;p&gt;voila, this blog has a reason, and although i am not the first one blogging for myself, there is a real personal reason for this blog. let the fun begin!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>running death</title>
+   <link href="http://juliangruber.com/posts/2011/06/24/running-death.html"/>
+   <updated>2011-06-24T00:00:00+02:00</updated>
+   <id>http://juliangruber.com/posts/2011/06/24/running-death</id>
+   <content type="html">&lt;p&gt;the skull wast made by lukas bihlmayer, everything else by me&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images-full/running-death/design.jpg&quot;&gt;&lt;img src=&quot;/images/running-death/design.jpg&quot; alt=&quot;skull&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images-full/running-death/design3.jpg&quot;&gt;&lt;img src=&quot;/images/running-death/design3.jpg&quot; alt=&quot;skull3&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>raytracing</title>
+   <link href="http://juliangruber.com/posts/2011/06/24/raytracing.html"/>
+   <updated>2011-06-24T00:00:00+02:00</updated>
+   <id>http://juliangruber.com/posts/2011/06/24/raytracing</id>
+   <content type="html">&lt;p&gt;just dug up some old rendering of mine, done in cinema 4d with the raytracer (1280x1024). i tried to simulate alien water which of course doesn't necessarily follow our physical laws. or so...&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images-full/ufo2.jpg&quot;&gt;&lt;img src=&quot;/images/ufo2.jpg&quot; alt=&quot;ufo&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>drop it</title>
+   <link href="http://juliangruber.com/posts/2011/06/24/drop-it.html"/>
+   <updated>2011-06-24T00:00:00+02:00</updated>
+   <id>http://juliangruber.com/posts/2011/06/24/drop-it</id>
+   <content type="html">&lt;p&gt;...like its hot! had some fun time with just cam and flashlights :)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images-full/drop-it.jpg&quot;&gt;&lt;img src=&quot;/images/drop-it.jpg&quot; alt=&quot;drop it&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>cowfish</title>
+   <link href="http://juliangruber.com/posts/2011/06/24/cowfish.html"/>
+   <updated>2011-06-24T00:00:00+02:00</updated>
+   <id>http://juliangruber.com/posts/2011/06/24/cowfish</id>
+   <content type="html">&lt;p&gt;a fish that looks like a box and is named like a cow. how cool is this?&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images-full/cowfish-ftw.jpg&quot;&gt;&lt;img src=&quot;/images/cowfish-ftw.jpg&quot; alt=&quot;cowfish&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>the death of the blog post</title>
+   <link href="http://juliangruber.com/posts/2011/06/23/the-death-of-the-blogpost.html"/>
+   <updated>2011-06-23T00:00:00+02:00</updated>
+   <id>http://juliangruber.com/posts/2011/06/23/the-death-of-the-blogpost</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.smashingmagazine.com/the-death-of-the-blog-post/&quot;&gt;the death of the blogpost&lt;/a&gt; in case you missed this one&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>dreamhost ddos</title>
+   <link href="http://juliangruber.com/posts/2011/06/23/dreamhost-ddos.html"/>
+   <updated>2011-06-23T00:00:00+02:00</updated>
+   <id>http://juliangruber.com/posts/2011/06/23/dreamhost-ddos</id>
+   <content type="html">&lt;p&gt;from &lt;a href=&quot;http://blog.dreamhost.com/2011/06/22/anonywhatnow/&quot;&gt;the official dreamhost blog&lt;/a&gt;, reporting about their system attack by a former member of anonymous:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Thankfully the FBI sent along this brochure to help us cope. It managed to calm everybody down.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/dh.jpg&quot; alt=&quot;hand amputation hurts everyone&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;alt tag: Hand amputation hurts everyone&lt;/p&gt;&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Ritterschaft zu Wasserstein</title>
+   <link href="http://juliangruber.com/posts/2010/11/08/ritterschaft-zu-wasserstein.html"/>
+   <updated>2010-11-08T00:10:15+01:00</updated>
+   <id>http://juliangruber.com/posts/2010/11/08/ritterschaft-zu-wasserstein</id>
+   <content type="html">&lt;p&gt;My newest work that I'm proud to present to you is the creation of a
+full-featured website for a german Knights/Middle Age club called
+&lt;a href=&quot;http://ritterschaft-zu-wasserstein.de/&quot;&gt;Ritterschaft zu Wasserstein&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It took about 3 months planning everything out, designing the frontend,
+laying out the pages and creating the underlying Content Management
+System.&lt;/p&gt;
+
+&lt;p&gt;Again I used the great &lt;a href=&quot;http://codeigniter.com/&quot;&gt;CodeIgniter&lt;/a&gt;
+&lt;a href=&quot;http://www.php.net/&quot;&gt;PHP&lt;/a&gt;-Framework, &lt;a href=&quot;http://www.mysql.com/&quot;&gt;MySQL&lt;/a&gt;,
+&lt;a href=&quot;http://en.wikipedia.org/wiki/XHTML&quot;&gt;XHTML&lt;/a&gt;,
+&lt;a href=&quot;http://en.wikipedia.org/wiki/JavaScript&quot;&gt;JavaScript&lt;/a&gt;with
+&lt;a href=&quot;http://jquery.com/&quot;&gt;jQuery&lt;/a&gt;,
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Cascading_Style_Sheets&quot;&gt;CSS&lt;/a&gt; with
+&lt;a href=&quot;http://www.blueprintcss.org/&quot;&gt;Blueprint&lt;/a&gt; and &lt;a href=&quot;http://www.adobe.com/products/photoshop/photoshop/&quot;&gt;Adobe
+Photoshop&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Content Management System enables easy&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;creating&lt;/li&gt;
+&lt;li&gt;editing&lt;/li&gt;
+&lt;li&gt;reordering and&lt;/li&gt;
+&lt;li&gt;deleting&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;of&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;text-bricks&lt;/li&gt;
+&lt;li&gt;members&lt;/li&gt;
+&lt;li&gt;videos&lt;/li&gt;
+&lt;li&gt;events&lt;/li&gt;
+&lt;li&gt;blog-posts&lt;/li&gt;
+&lt;li&gt;links&lt;/li&gt;
+&lt;li&gt;pictures&lt;/li&gt;
+&lt;li&gt;and the adjustment of various settings.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Especially to mention is the picture slider on the frontpage and the use
+of HTML5 and CSS3 on the backend to create clean rounded corners with
+managable code (as you can see in the pictures below).&lt;/p&gt;
+
+&lt;p&gt;Thanks to the &lt;a href=&quot;http://ritterschaft-zu-wasserstein.de/&quot;&gt;Ritterschaft zu
+Wasserstein&lt;/a&gt; for being such a
+great client to work with!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://ritterschaft-zu-wasserstein.de/&quot;&gt;http://ritterschaft-zu-wasserstein.de/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images-full/rzw-f.jpg&quot;&gt;&lt;img src=&quot;/images/rzw-f.jpg&quot; alt=&quot;Frontend&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images-full/rzw-g.jpg&quot;&gt;&lt;img src=&quot;/images/rzw-g.jpg&quot; alt=&quot;Backend&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Freundeskreis Château d'Orion</title>
+   <link href="http://juliangruber.com/posts/2010/05/19/freundeskreis-chateau-dorion.html"/>
+   <updated>2010-05-19T01:32:49+02:00</updated>
+   <id>http://juliangruber.com/posts/2010/05/19/freundeskreis-chateau-dorion</id>
+   <content type="html">&lt;p&gt;The german society &lt;a href=&quot;http://freundeskreis-chateau-orion.de/&quot;&gt;Freundeskreis Château
+d'Orion&lt;/a&gt; asked me to redesign
+their website with an easy to use Content Management System. I created
+the Design and Content Management System in one week, building upon the
+system I created for
+&lt;a href=&quot;http://juliangruber.com/2009/11/22/schulverein-des-jbg-de/&quot;&gt;Schulverein-des-jbg.de&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The administration area features functions for creating, editing,
+deleting, reordering, enabling and disabling pages using a word-like
+editor + a newsletter module I created for this site. The newsletter
+system consists of a registration page, a confirmation mail and a
+send-form in the administration area.&lt;/p&gt;
+
+&lt;p&gt;This site was created using
+&lt;a href=&quot;http://php.net/&quot;&gt;PHP5&lt;/a&gt;, &lt;a href=&quot;http://mysql.com/&quot;&gt;Mysql&lt;/a&gt;,
+&lt;a href=&quot;http://codeigniter.com/&quot;&gt;CodeIgniter&lt;/a&gt;,
+&lt;a href=&quot;http://code.google.com/p/blueprintcss/&quot;&gt;BluePrint&lt;/a&gt;,
+&lt;a href=&quot;http://tinymce.moxiecode.com/&quot;&gt;TinyMce&lt;/a&gt;,
+&lt;a href=&quot;http://ckeditor.com/&quot;&gt;CkEditor&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://freundeskreis-chateau-orion.de/&quot;&gt;http://freundeskreis-chateau-orion.de/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images-full/chateau/frontend.png&quot;&gt;&lt;img src=&quot;/images/chateau/frontend.jpg&quot; alt=&quot;Frontend&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images-full/chateau/backend-dashboard.png&quot;&gt;&lt;img src=&quot;/images/chateau/backend-dashboard.jpg&quot; alt=&quot;Backend Dashboard&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images-full/chateau/backend-newsletter.png&quot;&gt;&lt;img src=&quot;/images/chateau/backend-newsletter.jpg&quot; alt=&quot;Backend Newsletter&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images-full/chateau/backend-page.png&quot;&gt;&lt;img src=&quot;/images/chateau/backend-page.jpg&quot; alt=&quot;Backend Page&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>wallpaper for taste of desolation</title>
+   <link href="http://juliangruber.com/posts/2010/02/15/wallpapers-for-taste-of-desolation.html"/>
+   <updated>2010-02-15T12:07:31+01:00</updated>
+   <id>http://juliangruber.com/posts/2010/02/15/wallpapers-for-taste-of-desolation</id>
+   <content type="html">&lt;p&gt;a wallpaper i created for my former band &lt;a href=&quot;http://myspace.com/tasteofdesolation&quot;&gt;taste of
+desolation&lt;/a&gt; based on the artwork
+we bought for our tshirts. all rights reserved.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images-full/tod-wallpaper.jpg&quot;&gt;&lt;img src=&quot;/images/tod-wallpaper.jpg&quot; alt=&quot;Wallpaper Taste Of Desolation&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>business card for gruber-consulting.net</title>
+   <link href="http://juliangruber.com/posts/2010/02/15/business-card-for-gruber-consulting-net.html"/>
+   <updated>2010-02-15T11:36:36+01:00</updated>
+   <id>http://juliangruber.com/posts/2010/02/15/business-card-for-gruber-consulting-net</id>
+   <content type="html">&lt;p&gt;The management consultany
+&lt;a href=&quot;http://gruber-consulting.net/&quot;&gt;Gruber-Consulting.net&lt;/a&gt;, I previously
+created a page for (&lt;a href=&quot;/posts/2009/11/16/gruber-consulting-net.html&quot;&gt;original
+post&lt;/a&gt;) also
+wanted me to design matching business cards for them in order to improve
+their branding. They follow a color scheme quite similar to the webpage
+and feature the same logotype. Here are the different revisions of the
+design:&lt;/p&gt;
+
+&lt;p&gt;Dark background and big Helvetica type&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/ub-gruber.de/vk-1.jpg&quot; alt=&quot;Business Card rev 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Removed border on behalf of the client and swapped colors&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/ub-gruber.de/vk-3.jpg&quot; alt=&quot;Business Card rev 3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Added the borders again, this revision was then sent out to print&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/ub-gruber.de/vk-4.jpg&quot; alt=&quot;Business Card rev 4&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>schulverein-des-jbg.de</title>
+   <link href="http://juliangruber.com/posts/2009/11/22/schulverein-des-jbg-de.html"/>
+   <updated>2009-11-22T00:00:00+01:00</updated>
+   <id>http://juliangruber.com/posts/2009/11/22/schulverein-des-jbg-de</id>
+   <content type="html">&lt;p&gt;I designed and coded this simple website for a union at my school which
+cares about culture and science. It uses CodeIgniter and PHP5 at the
+backend and Blueprint, XHTML and CSS at the frontend. I will soon write
+about the process for this site, as I wrote it in only 3 days, including
+the cms.
+&lt;a href=&quot;http://schulverein-des-jbg.de/&quot;&gt;http://schulverein-des-jbg.de/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images-full/schulverein-des-jbg/home.png&quot;&gt;&lt;img src=&quot;/images/schulverein-des-jbg/home.jpg&quot; alt=&quot;Home&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images-full/schulverein-des-jbg/admin.png&quot;&gt;&lt;img src=&quot;/images/schulverein-des-jbg/admin.jpg&quot; alt=&quot;Admin&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>website for my school</title>
+   <link href="http://juliangruber.com/posts/2009/11/16/website-for-my-school.html"/>
+   <updated>2009-11-16T00:00:00+01:00</updated>
+   <id>http://juliangruber.com/posts/2009/11/16/website-for-my-school</id>
+   <content type="html">&lt;p&gt;I am the project leader and main developer of the team at my school that
+created and maintains the school website. It is written in XHTML, CSS
+and JavaScript (&lt;a href=&quot;http://mootools.net/&quot;&gt;MooTools&lt;/a&gt;) at the frontend and
+PHP5 (&lt;a href=&quot;http://codeigniter.com/&quot;&gt;CodeIgniter&lt;/a&gt;) and MySQL at the backend.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://jakob-brucker-gymnasium.de/&quot;&gt;http://jakob-brucker-gymnasium.de/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images-full/jbg/home.png&quot;&gt;&lt;img src=&quot;/images/jbg/home.jpg&quot; alt=&quot;Home Screen&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>juliangruber.com prior designs</title>
+   <link href="http://juliangruber.com/posts/2009/11/16/juliangruber-com-prior-design.html"/>
+   <updated>2009-11-16T00:00:00+01:00</updated>
+   <id>http://juliangruber.com/posts/2009/11/16/juliangruber-com-prior-design</id>
+   <content type="html">&lt;p&gt;I just want to share with you how this site looked like in prior times:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images-full/prior-designs/light-blue.png&quot;&gt;&lt;img src=&quot;/images/prior-designs/light-blue.jpg&quot; alt=&quot;Light Blue&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images-full/prior-designs/konzept8.jpg&quot;&gt;&lt;img src=&quot;/images/prior-designs/konzept8.jpg&quot; alt=&quot;Konzept8&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images-full/prior-designs/breit.png&quot;&gt;&lt;img src=&quot;/images/prior-designs/breit.jpg&quot; alt=&quot;Breit&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>gruber-consulting.net</title>
+   <link href="http://juliangruber.com/posts/2009/11/16/gruber-consulting-net.html"/>
+   <updated>2009-11-16T00:00:00+01:00</updated>
+   <id>http://juliangruber.com/posts/2009/11/16/gruber-consulting-net</id>
+   <content type="html">&lt;p&gt;This is a website I created for my father's management consultancy. It
+was written in quite few time using Blueprint and no backend system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://gruber-consulting.net/&quot;&gt;http://gruber-consulting.net/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images-full/ub-gruber.de/home-screen.png&quot;&gt;&lt;img src=&quot;/images/ub-gruber.de/home-screen.jpg&quot; alt=&quot;Home Screen&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>mickey mouse in the gardens of versailles</title>
+   <link href="http://juliangruber.com/posts/2008/10/09/mickey-mouse-in-the-gardens-of-versailles.html"/>
+   <updated>2008-10-09T00:00:00+02:00</updated>
+   <id>http://juliangruber.com/posts/2008/10/09/mickey-mouse-in-the-gardens-of-versailles</id>
+   <content type="html">&lt;p&gt;A stunning discovery: Micky Mouse hides in the gardens of Versailles!
+This must be part of an old plot!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/mickey-versailles.jpg&quot; alt=&quot;mickey mouse in th gardens of versailles&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>

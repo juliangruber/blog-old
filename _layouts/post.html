@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<ul id="pl"> 
+
+   <li><a href="{{ page.url }}" class="utitle"><span class="hash">#</span><span class="title">{{ page.title }}</span></a>
+   {{ content }}</li>
+
+</ul>
+
+<hr />
+
+<p>do you have something to add? then please <a href="mail:julian@juliangruber.com">drop me a mail</a>.</p>
+
+<h3>related posts</h3>
+<ul id="pls">
+{% for post in site.related_posts limit:3 %}
+<li><a href="{{ post.url }}">{{ post.title }}</a> <span>{{ post.date | date_to_string }}</span></li>
+{% endfor %}
+</ul>
+

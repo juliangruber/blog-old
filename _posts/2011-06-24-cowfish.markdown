@@ -1,0 +1,8 @@
+---
+layout: post
+title: cowfish
+---
+
+a fish that looks like a box and is named like a cow. how cool is this?
+
+[![cowfish](/images/cowfish-ftw.jpg)](/images-full/cowfish-ftw.jpg)

@@ -1,0 +1,7 @@
+auto:          false
+markdown:      rdiscount
+pygments:      true
+lsi:           true
+permalink:     /posts/:year/:month/:day/:title.html
+paginate: 10
+exclude:       ['README.markdown', 'todo']

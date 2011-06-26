@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html lang=en>
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <meta http-equiv="X-UA_Compatible" content="IE=edge,chrome=1" />
+   <meta name="description" content="\v/ and stuff" />
+   <meta name="author" content="julian gruber" />
+   <link rel="alternate" title="\v/ julian gruber" type="application/atom+xml" href="/atom.xml" />
+   <meta name="viewport" content="width=520, user-scalable=no" />
+   <link rel="stylesheet" href="/css/style.css?v=2" />
+   <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+   <![endif]--> 
+   <title>\v/ rails state of the art</title>
+</head>
+<body><div id="container">
+      <header>   
+         <h1><a href="/">\v/ &nbsp; j u l i a n g r u b e r</a></h1>
+         <a href="/posts.html">posts</a> &middot;
+         <a href="/music.html">music</a> &middot;
+         <a href="/skills.html">skills</a>
+      </header>
+      <div id="main">
+         <ul id="pl"> 
+
+   <li><a href="/posts/2011/06/25/rails-state-of-the-art.html" class="utitle"><span class="hash">#</span><span class="title">rails state of the art</span></a>
+   <iframe width="500" height="314" src="http://www.youtube.com/embed/cGdCI2HhfAU?rel=0&amp;hd=1" frameborder="0" allowfullscreen></iframe>
+
+
+<p>my comment on the somewhat controversal last railsconf talk by rails founder david heinemeier hansson (i recommend you watch his talk first if you haven't yet).</p>
+
+<h3>magic 13</h3>
+
+<pre><code>13 files in one directory -&gt; :(
+13 methods in one class   -&gt; :(
+</code></pre>
+
+<p>true.</p>
+
+<h3>asset pipeline</h3>
+
+<p>nice for big sites like the 37signals ones, but again a hassle for smaller sites. and a lot of sites start rather small. this might push even more developers towards sinatra.</p>
+
+<h3>code cops</h3>
+
+<p>and what's about david heinemeier hanssons's initial talk about ruby with freedom and risk and monkeypatching and stuff, now he is talking about laws, enforcements and code cops :(</p>
+
+<h3>asset structure</h3>
+
+<p>however filing the js- and css-files in a perfect folder structure on the backend and then serving them combined, minimized (and cached) is rather neat: lower filesize, fewer ttp requests, faster development.</p>
+
+<h3>unix</h3>
+
+<p>some critizise that the learning curve for rails is becoming steeper and steeper, possibly turning a lot of developers away from it.</p>
+
+<p>but might this not be just like with unix? a steep learning curve which always pays off in the end? only to a certain extent because unix allows simple flexible solutions whereas rails has this enforcing structure (convention over configuration).</p>
+
+<h3>vendor libraries</h3>
+
+<p>divorcing self written js from vendor js libs is a good idea.
+now you can install js libs also as gems and don't need to have them hang around in your directory structure. the only downside i see in this is that for quick code lookup in those files while development you have to get it from somewhere else.</p>
+
+<p>and the same works equally well for css frameworks (if you use them<sup>^)</sup></p>
+
+<h3>coffeescript</h3>
+
+<p>the inclusion of coffeescript isn't necessary, couldn't the just enable easy coffeescript integration?</p>
+
+<p>-> they help make coffeescript a standard which i myself appreciate</p>
+
+<p>but don't you have to have node.js installed on the server for coffeescript? this could become a huge problem for people tied to shared hosting environments. but hey, lets push those companies towards the future and demand it!</p>
+
+<p>(btw: the coffeescript compiler is written in coffeescript which is totally awesome)</p>
+
+<p>and they have automatic recompilation of changed .coffee-files already built in which is also totally awesome.</p>
+
+<h3>updated generators</h3>
+
+<p>when you generate a new controller, the generator autogenerates coffee &amp; scss-files for you. while this could generate some unnecessary files, for the scope of applications rails targets for js is propably needed for every controller.</p>
+
+<h3>automatic parser chaining</h3>
+
+<pre><code>posts.css.scss.erb
+</code></pre>
+
+<p>this says that posts.css should be parsed by erb and then by scss. thats very nice, dynamic css just got easier.</p>
+
+<h3>default libraries</h3>
+
+<p>although scss is the default css library you can easily witch to less e.g. by changing one config file. good for everyone!</p>
+
+<h3>defaults over no-defaults</h3>
+
+<p>rails stands for faster and easier development vs for example the classical unix approach: more configuration, but more flexibility. now what do you prefer?</p>
+
+<p>i prefer both. can't we have both?</p>
+
+<h3>framework vs library</h3>
+
+<p>framework: have features enabled by default. disable what you don't need
+library: have nothing enabled by default. pick and configure what you need.</p>
+
+<h3>middleware</h3>
+
+<p>this js/css compiling, minifying, filename-based-caching is cool, but do you know if they have this implemented as an independent racks middleware? would be cool to use in also not-rails-projects.</p>
+</li>
+
+</ul>
+
+<hr />
+
+<p>do you have something to add? then please <a href="mail:julian@juliangruber.com">drop me a mail</a>.</p>
+
+<h3>related posts</h3>
+<ul id="pls">
+
+<li><a href="/posts/2011/06/25/windows-mac-switching-resources.html">windows mac switching resources</a> <span>25 Jun 2011</span></li>
+
+<li><a href="/posts/2011/06/24/why-this-blog.html">why this blog</a> <span>24 Jun 2011</span></li>
+
+<li><a href="/posts/2009/11/22/schulverein-des-jbg-de.html">schulverein-des-jbg.de</a> <span>22 Nov 2009</span></li>
+
+</ul>
+
+
+         <hr />
+         julian gruber, <a href="mailto:julian@juliangruber.com">julian@juliangruber.com</a>
+      </div>
+</div></body>
+</html>
