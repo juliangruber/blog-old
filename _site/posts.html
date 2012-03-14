@@ -23,6 +23,157 @@
       <div id="main">
          <ul id="pl">
    
+   <li><a href="/posts/2011/06/27/installing-arch.html" class="utitle"><span class="hash">#</span><span class="title">installing arch</span></a>
+   <h3>installing</h3>
+
+<ul>
+<li>burn netinstall disk</li>
+<li>partition harddrives with gparted</li>
+<li>login as root</li>
+<li>run dhcpcd</li>
+<li>choose mirror: ftp://ftp.hosteurope.de</li>
+<li>set clock: ucp ntp</li>
+<li>fstab: add noatime to / and /home</li>
+<li>rc.conf: hostname, dhcp, daemons: @alsa, dbus, hal</li>
+<li>mkinitcpio.conf: add usbinput</li>
+<li>pacman.d/mirrorlist: http://mirror.rit.edu/archlinux (us)</li>
+<li>pick root password</li>
+<li>grub: add other operating systems, install on first entry</li>
+</ul>
+
+
+<h3>base</h3>
+
+<pre><code>pacman-db-upgrade &amp;&amp; pacman -Sy
+pacman -S curl vim sudo xf86-input-evdev xf86-video-ati mesa mesa-demos xorg-server xorg-xinit xorg-twm xorg-xclock xterm dbus wgetpaste xclip (ttf-dejavu) openssh (alsa-utils alsa-plugins libsamplerate) (surf libhspell) autocutsel (chromium) hal libgnome git texlive-core htop gtk-engines tango-icon-theme gcc make patch cmake gperf pkg-config net-tools xorg-xmessage vlc (apvlv) (urxvt) (transmission-gtk)
+</code></pre>
+
+<h3>office</h3>
+
+<pre><code>pacman -Slibreoffice artwiz-fonts openjdk6 alsa-lib virtualbox
+gpasswd -a julian vboxusers
+rc.d setup vboxdrv
+sudo modprobe vboxdrv
+virtualbox
+</code></pre>
+
+<p>New host: Windows 7, 1024mb ram, 20gb dynamic hdd</p>
+
+<h3>sha512 passwords</h3>
+
+<ul>
+<li>/etc/pam.d/passwd: replace md5 with sha512 and add rounds=65536</li>
+<li>/etc/default/passwd: change crypt=des to crypt=sha512</li>
+<li><p>/etc/login.defs: add ENCRYPT_METHOD SHA512</p>
+
+<p>  passwd (for each user)</p></li>
+</ul>
+
+
+<h3>users</h3>
+
+<ul>
+<li>adduser, groups: wheel, games, audio, video, power, log, lp, optical</li>
+<li>visudo: uncomment %wheel ALL=(ALL) ALL</li>
+</ul>
+
+
+<h3>x-server</h3>
+
+<pre><code>rc.d start dbus
+echo "autocutsel -fork &amp;" &gt;&gt; /etc/X11/xinit/xinitrc.d/40-autocutsel
+echo "autocutsel -selection PRIMARY -fork &amp;" &gt;&gt; /etc/X11/xinit/xinitrc.d/40-autocutsel
+</code></pre>
+
+<h3>ssh</h3>
+
+<ul>
+<li>restrict ssh to protocol 2 in /etc/ssh/ssh_config</li>
+</ul>
+
+
+<h3>sound</h3>
+
+<pre><code>alsamixer
+</code></pre>
+
+<p>Unmute master and pcm</p>
+
+<pre><code>alsactl -f /var/lib/alsa/asound.state store
+echo "defaults.pcm.rate_converter \"samplerate_best\"" &gt;&gt; /etc/asound.conf
+</code></pre>
+
+<h3>aur</h3>
+
+<ul>
+<li><p>install packer</p>
+
+<p>  packer -S flashplugin-prerelease (without license)
+  packer -S ttf-ms-fonts urxvt-clipboard urxvt-url-select</p></li>
+</ul>
+
+
+<h3>screensaver</h3>
+
+<pre><code>echo "/usr/bin/xscreensaver -no-splash &amp;" &gt; ~/.xinitrc
+</code></pre>
+
+<h3>window manager &amp; gtk</h3>
+
+<ul>
+<li>download and compile awesome from git</li>
+<li>download awesome-themes from git</li>
+<li>lxappearance: clearlooks</li>
+<li>qtconfic: gtk+</li>
+</ul>
+
+
+<h3>java</h3>
+
+<ul>
+<li>uncomment last line in /etc/profile.d/openjdk6.sh and run</li>
+</ul>
+
+
+<h3>bittorrent</h3>
+
+<pre><code>add blocklist: http://list.iblocklist.com/?list=bt_level1
+</code></pre>
+
+   </li>
+   
+   <li><a href="/posts/2011/06/26/misc.html" class="utitle"><span class="hash">#</span><span class="title">misc</span></a>
+   <blockquote><p>"Once you decide to change, you will always wish you changed earlier"</p></blockquote>
+
+<p>from <a href="http://adam.heroku.com/past/2010/4/30/startup_lessons_learned/">startup lessons learned</a></p>
+
+<p><a href="http://adam.heroku.com/past/2011/4/28/scaling_a_development_team/">scaling a development team</a></p>
+
+   </li>
+   
+   <li><a href="/posts/2011/06/26/interesting-questions-regarding-frameworks.html" class="utitle"><span class="hash">#</span><span class="title">interesting questions regarding frameworks</span></a>
+   <ul>
+<li>how long would it take to upgrade your app to the next major version of the framework?</li>
+<li>would you do the upgrade, or stick with the current framework version?</li>
+<li>what would it take to switch you app to a differend framework?</li>
+</ul>
+
+
+<p>source: <a href="http://www.slideshare.net/stuartherbert/beyond-frameworks">beyond frameworks</a></p>
+
+   </li>
+   
+   <li><a href="/posts/2011/06/26/importance-of-performance.html" class="utitle"><span class="hash">#</span><span class="title">importance of performance</span></a>
+   <ul>
+<li>1sec more pageloadtime = -2.8% revenue</li>
+<li>yahoo: 400ms slower = 5-9% drop in full-page traffic</li>
+</ul>
+
+
+<p>from <a href="http://www.slideshare.net/stoyan/dont-make-me-wait-or-building-highperformance-web-applications">don't make me wait! or building high-performance web applications</a></p>
+
+   </li>
+   
    <li><a href="/posts/2011/06/25/windows-mac-switching-resources.html" class="utitle"><span class="hash">#</span><span class="title">windows mac switching resources</span></a>
    <p>i'm switching back to linux now for reasons that i will dwelve into later. in order to leave my trace in the mac world here i post some software and tips for people who just switched over from windows and other operating systems in order to help with the transition:</p>
 
@@ -435,6 +586,8 @@ This must be part of an old plot!</p>
    </li>
    
 </ul>
+
+
 
 
          <hr />

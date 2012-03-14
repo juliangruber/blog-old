@@ -83,7 +83,7 @@ body { background-color: #eaeaea; text-align: center; padding-top: 25px; }
 header { padding-bottom: 25px; padding-top: 10px; }
 header a, header a:link { text-decoration: none; }
 header h1 { margin-bottom: 10px; }
-#main { background-color: #f1f1f1; width: 500px; padding: 10px; text-align: justify; margin: auto; margin-bottom: 10px; }
+#main { /*background-color: #f1f1f1;*/ width: 600px; padding: 10px; text-align: justify; margin: auto; margin-bottom: 10px; }
 #main p { margin-right: 5px; }
 em { color: #888; }
 img { max-width: 100%; }
@@ -104,7 +104,8 @@ ul#pl li a span.title { color: #444; font-weight: bold; position: relative; heig
 ul#pl li a span.hash { position: relative; left: -20px; width: 0; height: 0; display: block; }
 p, ul, h2, h3, ul#pl li a.utitle, iframe, pre { margin-bottom: 1.3em; }
 pre { background-color: #eaeaea; }
-
+#sharedwith { width: 50%; float: left; overflow: hidden; }
+#onstages { width: 50%; float: left; overflow: hidden; }
 
 
 

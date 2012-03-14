@@ -1,0 +1,10 @@
+---
+layout: post
+title: misc
+---
+
+> "Once you decide to change, you will always wish you changed earlier"
+
+from [startup lessons learned](http://adam.heroku.com/past/2010/4/30/startup_lessons_learned/)
+
+[scaling a development team](http://adam.heroku.com/past/2011/4/28/scaling_a_development_team/)

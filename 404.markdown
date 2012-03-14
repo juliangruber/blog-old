@@ -1,0 +1,8 @@
+---
+layout: default
+title: 404
+---
+
+i'm sorry, but this url doesn't map any of my content.
+
+[return home](http://juliangruber.com/)

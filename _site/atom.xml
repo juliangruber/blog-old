@@ -4,13 +4,180 @@
     <title>\v/ julian gruber</title>
  <link href="http://juliangruber.com/atom.xml" rel="self"/>
  <link href="http://juliangruber.com/"/>
- <updated>2011-06-26T13:04:22+02:00</updated>
+ <updated>2011-08-01T11:58:57+02:00</updated>
  <id>http://juliangruber.com/</id>
  <author>
    <name>julian gruber</name>
    <email>julian@juliangruber.com</email>
  </author>
 
+ 
+ <entry>
+   <title>installing arch</title>
+   <link href="http://juliangruber.com/posts/2011/06/27/installing-arch.html"/>
+   <updated>2011-06-27T00:00:00+02:00</updated>
+   <id>http://juliangruber.com/posts/2011/06/27/installing-arch</id>
+   <content type="html">&lt;h3&gt;installing&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;burn netinstall disk&lt;/li&gt;
+&lt;li&gt;partition harddrives with gparted&lt;/li&gt;
+&lt;li&gt;login as root&lt;/li&gt;
+&lt;li&gt;run dhcpcd&lt;/li&gt;
+&lt;li&gt;choose mirror: ftp://ftp.hosteurope.de&lt;/li&gt;
+&lt;li&gt;set clock: ucp ntp&lt;/li&gt;
+&lt;li&gt;fstab: add noatime to / and /home&lt;/li&gt;
+&lt;li&gt;rc.conf: hostname, dhcp, daemons: @alsa, dbus, hal&lt;/li&gt;
+&lt;li&gt;mkinitcpio.conf: add usbinput&lt;/li&gt;
+&lt;li&gt;pacman.d/mirrorlist: http://mirror.rit.edu/archlinux (us)&lt;/li&gt;
+&lt;li&gt;pick root password&lt;/li&gt;
+&lt;li&gt;grub: add other operating systems, install on first entry&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;base&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;pacman-db-upgrade &amp;amp;&amp;amp; pacman -Sy
+pacman -S curl vim sudo xf86-input-evdev xf86-video-ati mesa mesa-demos xorg-server xorg-xinit xorg-twm xorg-xclock xterm dbus wgetpaste xclip (ttf-dejavu) openssh (alsa-utils alsa-plugins libsamplerate) (surf libhspell) autocutsel (chromium) hal libgnome git texlive-core htop gtk-engines tango-icon-theme gcc make patch cmake gperf pkg-config net-tools xorg-xmessage vlc (apvlv) (urxvt) (transmission-gtk)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;office&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;pacman -Slibreoffice artwiz-fonts openjdk6 alsa-lib virtualbox
+gpasswd -a julian vboxusers
+rc.d setup vboxdrv
+sudo modprobe vboxdrv
+virtualbox
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;New host: Windows 7, 1024mb ram, 20gb dynamic hdd&lt;/p&gt;
+
+&lt;h3&gt;sha512 passwords&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;/etc/pam.d/passwd: replace md5 with sha512 and add rounds=65536&lt;/li&gt;
+&lt;li&gt;/etc/default/passwd: change crypt=des to crypt=sha512&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;/etc/login.defs: add ENCRYPT_METHOD SHA512&lt;/p&gt;
+
+&lt;p&gt;  passwd (for each user)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;users&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;adduser, groups: wheel, games, audio, video, power, log, lp, optical&lt;/li&gt;
+&lt;li&gt;visudo: uncomment %wheel ALL=(ALL) ALL&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;x-server&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;rc.d start dbus
+echo &quot;autocutsel -fork &amp;amp;&quot; &amp;gt;&amp;gt; /etc/X11/xinit/xinitrc.d/40-autocutsel
+echo &quot;autocutsel -selection PRIMARY -fork &amp;amp;&quot; &amp;gt;&amp;gt; /etc/X11/xinit/xinitrc.d/40-autocutsel
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;ssh&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;restrict ssh to protocol 2 in /etc/ssh/ssh_config&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;sound&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;alsamixer
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Unmute master and pcm&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;alsactl -f /var/lib/alsa/asound.state store
+echo &quot;defaults.pcm.rate_converter \&quot;samplerate_best\&quot;&quot; &amp;gt;&amp;gt; /etc/asound.conf
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;aur&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;install packer&lt;/p&gt;
+
+&lt;p&gt;  packer -S flashplugin-prerelease (without license)
+  packer -S ttf-ms-fonts urxvt-clipboard urxvt-url-select&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;screensaver&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;echo &quot;/usr/bin/xscreensaver -no-splash &amp;amp;&quot; &amp;gt; ~/.xinitrc
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;window manager &amp;amp; gtk&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;download and compile awesome from git&lt;/li&gt;
+&lt;li&gt;download awesome-themes from git&lt;/li&gt;
+&lt;li&gt;lxappearance: clearlooks&lt;/li&gt;
+&lt;li&gt;qtconfic: gtk+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;java&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;uncomment last line in /etc/profile.d/openjdk6.sh and run&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;bittorrent&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;add blocklist: http://list.iblocklist.com/?list=bt_level1
+&lt;/code&gt;&lt;/pre&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>misc</title>
+   <link href="http://juliangruber.com/posts/2011/06/26/misc.html"/>
+   <updated>2011-06-26T00:00:00+02:00</updated>
+   <id>http://juliangruber.com/posts/2011/06/26/misc</id>
+   <content type="html">&lt;blockquote&gt;&lt;p&gt;&quot;Once you decide to change, you will always wish you changed earlier&quot;&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;from &lt;a href=&quot;http://adam.heroku.com/past/2010/4/30/startup_lessons_learned/&quot;&gt;startup lessons learned&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://adam.heroku.com/past/2011/4/28/scaling_a_development_team/&quot;&gt;scaling a development team&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>interesting questions regarding frameworks</title>
+   <link href="http://juliangruber.com/posts/2011/06/26/interesting-questions-regarding-frameworks.html"/>
+   <updated>2011-06-26T00:00:00+02:00</updated>
+   <id>http://juliangruber.com/posts/2011/06/26/interesting-questions-regarding-frameworks</id>
+   <content type="html">&lt;ul&gt;
+&lt;li&gt;how long would it take to upgrade your app to the next major version of the framework?&lt;/li&gt;
+&lt;li&gt;would you do the upgrade, or stick with the current framework version?&lt;/li&gt;
+&lt;li&gt;what would it take to switch you app to a differend framework?&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;source: &lt;a href=&quot;http://www.slideshare.net/stuartherbert/beyond-frameworks&quot;&gt;beyond frameworks&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>importance of performance</title>
+   <link href="http://juliangruber.com/posts/2011/06/26/importance-of-performance.html"/>
+   <updated>2011-06-26T00:00:00+02:00</updated>
+   <id>http://juliangruber.com/posts/2011/06/26/importance-of-performance</id>
+   <content type="html">&lt;ul&gt;
+&lt;li&gt;1sec more pageloadtime = -2.8% revenue&lt;/li&gt;
+&lt;li&gt;yahoo: 400ms slower = 5-9% drop in full-page traffic&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;from &lt;a href=&quot;http://www.slideshare.net/stoyan/dont-make-me-wait-or-building-highperformance-web-applications&quot;&gt;don't make me wait! or building high-performance web applications&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>windows mac switching resources</title>
